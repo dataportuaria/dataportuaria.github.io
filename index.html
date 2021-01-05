@@ -23,6 +23,11 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   <!-- Icono -->
   <link rel="shortcut icon" href="img/favicon.jpg" />
   
@@ -37,16 +42,13 @@
 
 <main role="main">
   <script type="text/javascript">
-    alert("Este sitio es para uso interno de: Mario, Ernesto, Florencia, Nicolas, Lucia, Agustin, y Walter");
+    alert("Este sitio es para uso interno de: Mario, Florencia, Nicolas, Walter");
   </script>
 <br>
 <h1>Notas Interesantes</h1>
 <br>
 
 <div class="container mt-3" style="text-align:center; vertical-align:middle;align-items:center;" >
-
-
-
 
   <div class="form-inline" action="#table" style="margin-left:auto;margin-right:auto;width:100%">
   <h4 style="margin-left:auto;margin-right:auto;width:92%"> <input class="form-control" action="#table" id="myInput" type="text" placeholder="Ingrese palabras clave" style="margin-left:auto;margin-right:auto;width:80%"> <a href="#table"  type="submit" style="text-align:left">Buscar</a></h4>
@@ -109,40 +111,227 @@ $(document).ready(function(){
   <div class="album py-5 bg-light" id="mytab" style="background-color: #eee!important;">
     <div class="container">
 
-      <div class="row">
-        <td>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
-                <img width="100%" height="225" src="https://portalportuario.cl/wp-content/uploads/2020/08/hidrovia-argentina.jpeg" >
-                <div class="card-body">
-                  <p class="card-text" ><b>Exportaciones agroindustriales en Argentina</b></p> <p class="card-text">Estiman que exportaciones de principales bienes agroindustriales caerán 6% en 2020</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                      <a href="https://portalportuario.cl/argentina-estiman-que-exportaciones-de-principales-bienes-agroindustriales-caeran-6-en-2020/" >Ver Más</a>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-        </td>
+     
+    
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#todo">Todo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pba">Puerto Buenos Aires</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#exportaciones">Exportaciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#canal">Canal Magdalena</a>
+      </li>
+    </ul>
+  
+    <!-- Tab panes -->
+    <div class="tab-content border mb-3">
 
-        <td>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
-                <img width="100%" height="225" src="http://www.argenports.com.ar/public/img/notas/378/importante-apoyo-a-la-construccion-del-canal-magdalena-aga-bahia-blanca-desktop.jpg" >
-                <div class="card-body">
-                  <p class="card-text" ><b>Canal Magdalena</b></p> <p class="card-text">Importante apoyo a la construcción del Canal Magdalena</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                      <a href="http://www.argenports.com.ar/nota/importante-apoyo-a-la-construccion-del-canal-magdalena/" >Ver Más</a>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-        </td>
+      <div id="todo" class="container tab-pane active"><br>
+              <div class="row">
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="https://portalportuario.cl/wp-content/uploads/2020/08/hidrovia-argentina.jpeg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Exportaciones agroindustriales en Argentina</b></p> <p class="card-text">Estiman que exportaciones de principales bienes agroindustriales caerán 6% en 2020</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://portalportuario.cl/argentina-estiman-que-exportaciones-de-principales-bienes-agroindustriales-caeran-6-en-2020/" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
 
-        <td>
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="http://www.argenports.com.ar/public/img/notas/378/importante-apoyo-a-la-construccion-del-canal-magdalena-aga-bahia-blanca-desktop.jpg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Canal Magdalena</b></p> <p class="card-text">Importante apoyo a la construcción del Canal Magdalena</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="http://www.argenports.com.ar/nota/importante-apoyo-a-la-construccion-del-canal-magdalena/" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="https://portalportuario.cl/wp-content/uploads/2020/12/Futuro-puerto-Buenos-Aires-400x267.jpg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Agenda digital Puerto Buenos Aires</b></p> <p class="card-text">Agentes marítimos y despachantes piden una agenda digital para el futuro Puerto Buenos Aires</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://portalportuario.cl/agentes-maritimos-y-despachantes-piden-una-agenda-digital-para-el-futuro-puerto-buenos-aires/" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="http://www.mercojuris.com/wp-content/uploads/2020/12/Imagen-14.png" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Consideraciónes técnicas económicas sobre el canal de magdalena</b></p> <p class="card-text">Ante los renovados planteos de estudiar al Canal Magdalena como una alternativa viable de salida hacia el Océano, se formulan a continuación algunas consideraciones que lo desaconsejan, al menos en la presente etapa. Estas consideraciones se basan en fundamentos técnicos – operativos, económicos y ambientales.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www.mercojuris.com/36476/consideraciones-tecnicas-economicas-sobre-el-canal-magdalena-y-su-conjunto-dra-ma-clara-lacava-e-ing-alfredo-j-enriques/" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="http://www.argenports.com.ar/public/img/notas/377/cabrera-dijo-que-la-decision-de-hacer-canal-magdalena-ya-esta-tomada-aga-bahia-blanca-desktop.jpg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Cabrera aseguró que la decisión de hacer el canal Magdalena "ya está tomada"</b></p> <p class="card-text">El funcionario nacional ratificó que Argentina hará la obra y afirmó que la idea es llevarla a cabo "lo antes posible. También señaló que habrá una licitación específica, independiente de la prevista para la Hidrovía.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www.linkedin.com/posts/argenports_cabrera-asegur%C3%B3-que-la-decisi%C3%B3n-de-hacer-activity-6746091834738536448-abBY" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="https://i.ibb.co/PQBPjjX/Whats-App-Image-2020-12-26-at-08-39-47-1-1.webp" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Dejar sin efecto la sociedad del Estado, causó decepción en provincias de la Hidrovía</b></p> <p class="card-text">Rodríguez Signes, indicó que “es un atraso con respecto a la propuesta que el Presidente -Alberto Fernández- había hecho originalmente”.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www.serindustria.com.ar/dejar-sin-efecto-la-sociedad-del-estado-causo-decepcion-en-provincias-de-la-hidrovia/" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="https://www-cronista-com.cdn.ampproject.org/ii/w680/s/www.cronista.com/img/2020/12/29/foto_magdalena.jpeg?__scale=w:600,h:399,t:2,q:80" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>El Canal Magdalena a un paso de licitarse</b></p> <p class="card-text">El decreto 949/2020 también se refiere al dragado de otros tramos no comprendidos en la vía troncal del Paraná.  Con todos los estudios y aprobaciones realizados, solo resta la audiencia pública y la confección de los pliegos.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www-cronista-com.cdn.ampproject.org/c/s/www.cronista.com/amp/transportycargo/El-Canal-Magdalena-a-un-paso-de-licitarse-20201229-0027.html" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="http://www.argenports.com.ar/public/img/notas/401/la-obra-del-canal-magdalena-esta-en-condiciones-de-ser-licitada-en-cuatro-meses-aga-bahia-blanca-desktop.jpg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Canal Magdalena: está todo listo para poder licitar la obra en solo cuatro meses</b></p> <p class="card-text">Ya fueron realizados y aprobados todos los estudios necesarios. Ahora sólo resta concretar la correspondiente audiencia pública y confeccionar los pliegos.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www.linkedin.com/posts/argenports_canal-magdalena-est%C3%A1-todo-listo-para-poder-activity-6750062015588397056-PfwT" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="http://www.argenports.com.ar/public/img/notas/405/acuerdo-empresarial-en-el-sur-bonaerense-para-potenciar-la-produccion-y-los-puertos-aga-bahia-blanca-desktop.jpg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Acuerdo empresarial en el sur bonaerense para potenciar la producción</b></p> <p class="card-text">La necesidad de desarrollar un eje estratégico en común fue acordada por los presidentes de la Unión Industrial de Bahía Blanca y de la Cámara de Profesionales y Empresarios de Puerto Quequén.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www.linkedin.com/posts/argenports_canal-magdalena-est%C3%A1-todo-listo-para-poder-activity-6750062015588397056-PfwT" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="http://www.argenports.com.ar/public/img/remolca.jpg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Las medidas de fuerza continúan paralizando los principales puertos del país</b></p> <p class="card-text"> En diálogo con Argenports.com, el dirigente sindical explicó, por ejemplo, que en algunas terminales de varios puertos cerealeros puede haber algo de movimiento, por caso Bahía Blanca y Quequén, porque el gremio realizó convenios particulares con algunas empresas.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www.linkedin.com/posts/argenports_canal-magdalena-est%C3%A1-todo-listo-para-poder-activity-6750062015588397056-PfwT" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="https://www.cronista.com/__export/1609603099270/sites/diarioelcronista/img/2021/01/02/servicios_remolque1_1.jpg_673822677.jpg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Puertos paralizados, se agrava el paro de remolcadores</b></p> <p class="card-text"> Se endureció la postura de los gremios y por el paro de remolques, ya no entran ni siquiera los buques que traigan insumos para combatir el coronavirus.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www.linkedin.com/posts/argenports_canal-magdalena-est%C3%A1-todo-listo-para-poder-activity-6750062015588397056-PfwT" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="https://portalportuario.cl/wp-content/uploads/2021/01/remolque-argentina.jpg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Centro de Navegación pide a autoridades intervenir en paro de remolcadores</b></p> <p class="card-text"> El Centro de Navegación de Argentina, institución que agrupa a las agencias marítimas, empresas que representan a la mayoría de los buques dedicados al transporte fluvial marítimo nacional e internacional de cargas y pasajeros, pidió a autoridades del Gobierno trasandino que intervinieran en la paralización que llevan a cabo algunos servicios de remolcadores en el país.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://www.linkedin.com/posts/argenports_canal-magdalena-est%C3%A1-todo-listo-para-poder-activity-6750062015588397056-PfwT" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+
+           </div>
+      </div>
+
+      <div id="pba" class="container tab-pane fade"><br>
+        <div class="row">
+          <td>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
                 <img width="100%" height="225" src="https://portalportuario.cl/wp-content/uploads/2020/12/Futuro-puerto-Buenos-Aires-400x267.jpg" >
@@ -151,7 +340,48 @@ $(document).ready(function(){
                   <div class="d-flex justify-content-between align-items-center">
                     
                       <a href="https://portalportuario.cl/agentes-maritimos-y-despachantes-piden-una-agenda-digital-para-el-futuro-puerto-buenos-aires/" >Ver Más</a>
-                   
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+        </td>
+        </div>
+      </div>
+
+      <div id="exportaciones" class="container tab-pane fade"><br>
+        <div class="row">
+                <td>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                        <img width="100%" height="225" src="https://portalportuario.cl/wp-content/uploads/2020/08/hidrovia-argentina.jpeg" >
+                        <div class="card-body">
+                          <p class="card-text" ><b>Exportaciones agroindustriales en Argentina</b></p> <p class="card-text">Estiman que exportaciones de principales bienes agroindustriales caerán 6% en 2020</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            
+                              <a href="https://portalportuario.cl/argentina-estiman-que-exportaciones-de-principales-bienes-agroindustriales-caeran-6-en-2020/" >Ver Más</a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+        </div>
+      </div>
+
+      <div id="canal" class="container tab-pane fade"><br>
+        <div class="row">
+
+          <td>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+                <img width="100%" height="225" src="http://www.argenports.com.ar/public/img/notas/378/importante-apoyo-a-la-construccion-del-canal-magdalena-aga-bahia-blanca-desktop.jpg" >
+                <div class="card-body">
+                  <p class="card-text" ><b>Canal Magdalena: Apoyo a la construcción</b></p> <p class="card-text"> El presidente del Consorcio de Gestión del Puerto La Plata, ingeniero Pedro Wasiejko destacó el apoyo que recibió la iniciativa para impulsar la construcción del Canal Magdalena lo que significa “una muestra de integración y soberanía nacional y de proyecto de país que queremos construir”.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                      <a href="http://www.argenports.com.ar/nota/importante-apoyo-a-la-construccion-del-canal-magdalena/" >Ver Más</a>
+                  
                   </div>
                 </div>
               </div>
@@ -167,7 +397,7 @@ $(document).ready(function(){
                   <div class="d-flex justify-content-between align-items-center">
                     
                       <a href="https://www.mercojuris.com/36476/consideraciones-tecnicas-economicas-sobre-el-canal-magdalena-y-su-conjunto-dra-ma-clara-lacava-e-ing-alfredo-j-enriques/" >Ver Más</a>
-                   
+                  
                   </div>
                 </div>
               </div>
@@ -183,23 +413,7 @@ $(document).ready(function(){
                   <div class="d-flex justify-content-between align-items-center">
                     
                       <a href="https://www.linkedin.com/posts/argenports_cabrera-asegur%C3%B3-que-la-decisi%C3%B3n-de-hacer-activity-6746091834738536448-abBY" >Ver Más</a>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-        </td>
-
-        <td>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
-                <img width="100%" height="225" src="https://www.serindustria.com.ar/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-26-at-08.39.47-1.jpeg" >
-                <div class="card-body">
-                  <p class="card-text" ><b>Dejar sin efecto la sociedad del Estado, causó decepción en provincias de la Hidrovía</b></p> <p class="card-text">Rodríguez Signes, indicó que “es un atraso con respecto a la propuesta que el Presidente -Alberto Fernández- había hecho originalmente”.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                      <a href="https://www.serindustria.com.ar/dejar-sin-efecto-la-sociedad-del-estado-causo-decepcion-en-provincias-de-la-hidrovia/" >Ver Más</a>
-                   
+                  
                   </div>
                 </div>
               </div>
@@ -215,7 +429,7 @@ $(document).ready(function(){
                   <div class="d-flex justify-content-between align-items-center">
                     
                       <a href="https://www-cronista-com.cdn.ampproject.org/c/s/www.cronista.com/amp/transportycargo/El-Canal-Magdalena-a-un-paso-de-licitarse-20201229-0027.html" >Ver Más</a>
-                   
+                  
                   </div>
                 </div>
               </div>
@@ -231,39 +445,59 @@ $(document).ready(function(){
                   <div class="d-flex justify-content-between align-items-center">
                     
                       <a href="https://www.linkedin.com/posts/argenports_canal-magdalena-est%C3%A1-todo-listo-para-poder-activity-6750062015588397056-PfwT" >Ver Más</a>
-                   
+                  
                   </div>
                 </div>
               </div>
             </div>
         </td>
-
-		
-        
+        </div>
       </div>
+
     </div>
+    <p class="act"><b>Categoría Actual</b>: <span></span></p>
+    <p class="prev"><b>Categoría Anterior</b>: <span></span></p>
   </div>
 
+</div>
+
+  
+  <script>
+  $(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+      $(this).tab('show');
+    });
+    $('.nav-tabs a').on('shown.bs.tab', function(event){
+      var x = $(event.target).text();         // active tab
+      var y = $(event.relatedTarget).text();  // previous tab
+      $(".act span").text(x);
+      $(".prev span").text(y);
+    });
+  });
+  </script>
 </main>
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-
-</body>
 
 
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+
+  <!-- script de navegacion por categorias -->
+  <script>
+    $(document).ready(function(){
+      $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+      });
+      $('.nav-tabs a').on('shown.bs.tab', function(event){
+        var x = $(event.target).text();         // active tab
+        var y = $(event.relatedTarget).text();  // previous tab
+        $(".act span").text(x);
+        $(".prev span").text(y);
+      });
+    });
+    </script>
 
 </body>
 
