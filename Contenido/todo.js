@@ -504,7 +504,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"15 de marzo 2019", 
 		 fnum:190315,
 		 href:"https://eleconomista.com.ar/2019-03-las-cadenas-de-valor-global-y-las-posibilidades-de-argentina/",
-		 img:"https://eleconomista.com.ar/wp-content/uploads/2018/07/Mapa-Argentina.png"
+		 img:"https://i.ibb.co/FgZHfT8/Mapa-Argentina.png"
 		},
 		
 		{
@@ -1091,7 +1091,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"15 de marzo 2019", 
 		 fnum:190315,
 		 href:"https://eleconomista.com.ar/2019-03-las-cadenas-de-valor-global-y-las-posibilidades-de-argentina/",
-		 img:"https://eleconomista.com.ar/wp-content/uploads/2018/07/Mapa-Argentina.png"
+		 img:"https://i.ibb.co/FgZHfT8/Mapa-Argentina.png"
 		},
 		
 		{
