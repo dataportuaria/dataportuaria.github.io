@@ -396,7 +396,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"1 de enero 2021", 
 		 fnum:210101,
 		 href:"https://www.serindustria.com.ar/hay-que-publicitar-las-facilidades-que-ofrece-puerto-la-plata-a-los-operadores-de-comercio-exterior/",
-		 img:"https://www.serindustria.com.ar/wp-content/uploads/2021/01/Ernesto-Fern%C3%A1ndez-Taboada.jpg"
+		 img:"https://i.ibb.co/tpkH0hk/Ernesto-Fern-ndez-Taboada.webp"
 		},
 		
 		{
@@ -919,7 +919,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"1 de enero 2021", 
 		 fnum:210101,
 		 href:"https://www.serindustria.com.ar/hay-que-publicitar-las-facilidades-que-ofrece-puerto-la-plata-a-los-operadores-de-comercio-exterior/",
-		 img:"https://www.serindustria.com.ar/wp-content/uploads/2021/01/Ernesto-Fern%C3%A1ndez-Taboada.jpg"
+		 img:"https://i.ibb.co/tpkH0hk/Ernesto-Fern-ndez-Taboada.webp"
 		},
 		
 		{
