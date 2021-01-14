@@ -543,6 +543,24 @@ notas.controller("controlador", function($scope){
 		 img:"https://www.bcr.com.ar/sites/default/files/styles/free/public/balance_trigo_1_0.png?itok=toMGFRMi"
 		},
 		
+		{
+		 titulo:"Afirman que el hub logístico La Plata “es un beneficio enorme para los usuarios de Zona Franca”",
+		 texto:"Gabriel Salomón, director general en Jidoka, empresa que trabaja en Buenos Aires Zona Franca La Plata (BAZFLP), enumeró las ventajas que brinda a exportadores e importadores operar en ese territorio. Además, destacó la posibilidad de que se reforme la ley que regula el régimen de funcionamiento. ",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"https://www.serindustria.com.ar/afirman-que-el-hub-logistico-la-plata-es-un-beneficio-enorme-para-los-usuarios-de-zona-franca/",
+		 img:"https://www.serindustria.com.ar/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-08-at-15.04.45.jpeg"
+		},
+		
+		{
+		 titulo:"El petróleo de Vaca Muerta permitió a Puerto Rosales cerrar un buen 2020",
+		 texto:"La exportación de crudo, sobre todo de la variedad Medanito, posibilitó que la estación marítima bonaerense haya movido más carga que en 2019.",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"http://www.argenports.com.ar/nota/el-petroleo-de-vaca-muerta-permitio-a-puerto-rosales-cerrar-un-buen-2020/",
+		 img:"http://www.argenports.com.ar/public/img/notas/419/el-petroleo-de-vaca-muerta-permitio-a-puerto-rosales-cerrar-un-buen-2020-aga-bahia-blanca-desktop.jpg"
+		},
+		
 
 	];
 
@@ -957,6 +975,15 @@ notas.controller("controlador", function($scope){
 		 href:"https://www.bcr.com.ar/es/mercados/investigacion-y-desarrollo/informativo-semanal/noticias-informativo-semanal/el-trigo-24",
 		 img:"https://www.bcr.com.ar/sites/default/files/styles/free/public/balance_trigo_1_0.png?itok=toMGFRMi"
 		},
+		
+		{
+		 titulo:"El petróleo de Vaca Muerta permitió a Puerto Rosales cerrar un buen 2020",
+		 texto:"La exportación de crudo, sobre todo de la variedad Medanito, posibilitó que la estación marítima bonaerense haya movido más carga que en 2019.",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"http://www.argenports.com.ar/nota/el-petroleo-de-vaca-muerta-permitio-a-puerto-rosales-cerrar-un-buen-2020/",
+		 img:"http://www.argenports.com.ar/public/img/notas/419/el-petroleo-de-vaca-muerta-permitio-a-puerto-rosales-cerrar-un-buen-2020-aga-bahia-blanca-desktop.jpg"
+		},
 	];
 
 	lista.logistica = [
@@ -1110,6 +1137,15 @@ notas.controller("controlador", function($scope){
 		 fnum:210106,
 		 href:"https://comex-online.com.ar/noticias/val/58194/el-futuro-de-la-logistica-de-exportacion-argentina-.html#.X_dXYpdUHiU.linkedin",
 		 img:"https://comex-online.com.ar/data/img_cont/img_imagenes/img_gr/7296.jpeg"
+		},
+		
+		{
+		 titulo:"Afirman que el hub logístico La Plata “es un beneficio enorme para los usuarios de Zona Franca”",
+		 texto:"Gabriel Salomón, director general en Jidoka, empresa que trabaja en Buenos Aires Zona Franca La Plata (BAZFLP), enumeró las ventajas que brinda a exportadores e importadores operar en ese territorio. Además, destacó la posibilidad de que se reforme la ley que regula el régimen de funcionamiento. ",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"https://www.serindustria.com.ar/afirman-que-el-hub-logistico-la-plata-es-un-beneficio-enorme-para-los-usuarios-de-zona-franca/",
+		 img:"https://www.serindustria.com.ar/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-08-at-15.04.45.jpeg"
 		},
 	];
 
