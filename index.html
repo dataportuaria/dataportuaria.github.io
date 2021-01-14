@@ -4,9 +4,9 @@
   <head>
 	  
     
-    <script src="/fuentes/angular-route.min.js"></script>
-    <script src="/fuentes/angular.js"></script>
-    <script src="/fuentes/todo.js"></script>	
+    <script src="/Contenido/angular-route.min.js"></script>
+    <script src="/Contenido/angular.js"></script>
+    <script src="/Contenido/todo.js"></script>	
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -56,8 +56,11 @@
     </div>
   </nav>
   <main role="main">
+  <script type="text/javascript">
+    alert("Este sitio es para uso interno de: Mario, Florencia, Nicolas, Walter");
+  </script>
   <br>
-  <h1>Fuentes de informacíon</h1>
+  <h1>Notas Interesantes</h1>
 
   <div class="container mt-3" style="text-align:center; vertical-align:middle;align-items:center;" >
 
@@ -205,28 +208,28 @@
     <!-- Menú Categorias -->
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active" href="#todo">Todo</a>
+        <a class="nav-link active" href="#todo">Todo ({{lista.todas.length}})</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#local">Local</a>
+        <a class="nav-link" href="#local">Local ({{lista.local.length}})</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#inter">Internacional</a>
+        <a class="nav-link" href="#inter">Internacional ({{lista.inter.length}})</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#autoridades">Autoridades</a>
+        <a class="nav-link" href="#autoridades">Autoridades ({{lista.autoridades.length}})</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#comex">Comercio Exterior</a>
+        <a class="nav-link" href="#comex">Comercio Exterior ({{lista.comex.length}})</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#logistica">Logística</a>
+        <a class="nav-link" href="#logistica">Logística ({{lista.logistica.length}})</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#paro">Paros e Inactividad</a>
+        <a class="nav-link" href="#paro">Paros e Inactividad ({{lista.paro.length}})</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#canal">Canal Magdalena</a>
+        <a class="nav-link" href="#canal">Canal Magdalena ({{lista.canalMagdalena.length}})</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#anuario">Anuario</a>
