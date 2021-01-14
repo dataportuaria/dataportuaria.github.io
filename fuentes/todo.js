@@ -561,6 +561,51 @@ notas.controller("controlador", function($scope){
 		 img:"http://www.argenports.com.ar/public/img/notas/419/el-petroleo-de-vaca-muerta-permitio-a-puerto-rosales-cerrar-un-buen-2020-aga-bahia-blanca-desktop.jpg"
 		},
 		
+		{
+		 titulo:"Falkland Islands admits disappointment and frustration with Brexit deal",
+		 texto:"Falkland Islands European Union exports are now subject to tariffs due to the UK not obtaining an agreement on behalf of the Falklands in relation to Brexit. On Wednesday, Legislative Assembly members released an opinion piece that expressed disappointment and frustration.",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"https://en.mercopress.com/2021/01/08/falkland-islands-admits-disappointment-and-frustration-with-brexit-deal",
+		 img:"https://en.mercopress.com/data/cache/noticias/79687/0x0/scout-mare-harbour.jpg"
+		},
+		
+		{
+		 titulo:"El Canal Magdalena",
+		 texto:"Canal Magdalena en el Río de la Plata, un proyecto de gran envergadura, que ha obtenido tanto respaldo como reparos. Para que sume su aporte, le solicitamos a Jorge Metz, ex Secretario General del Comité Intergubernamental Coordinador de la Cuenca del Plata (CIC Plata) (Argentina, Bolivia, Brasil, Paraguay y Uruguay), ex Subsecretario de Puertos y Vías Navegables de Nación y ex Presidente del Consorcio del Puerto de la Plata, nos realice un análisis sobre este tema.",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"https://confluenciaportuaria.com/destacada/el-canal-magdalena/",
+		 img:"https://confluenciaportuaria.com/wp-content/uploads/2021/01/3355e06c-982b-40b0-ab1e-f529930683a0.jpg"
+		},
+		
+		{
+		 titulo:"Se publicó el llamado a licitación para el dragado del puerto de Mar del Plata",
+		 texto:"La obra alcanzará al canal principal y espacios interiores de la terminal local. Se deben remover 560.000 m3 de sedimentos. Las ofertas se conocerán el próximo 19 de febrero.",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"http://www.argenports.com.ar/nota/se-publico-el-llamado-a-licitacion-para-el-dragado-del-puerto-de-mar-del-plata/",
+		 img:"http://www.argenports.com.ar/public/img/notas/420/se-publico-el-llamado-a-licitacion-para-el-dragado-del-puerto-de-mar-del-plata-aga-bahia-blanca-desktop.jpg"
+		},
+		
+		{
+		 titulo:"Comercio exterior, macroeconomía y la restricción externa",
+		 texto:"Las exportaciones se desplomaron un 42,27% en noviembre y abren el camino al colapso económico",
+		 fecha:"29 de diciembre 2020", 
+		 fnum:201229,
+		 href:"https://www.cronista.com/transportycargo/Comercio-exterior-macroeconomia-y-la-restriccion-externa-20201229-0029.html",
+		 img:"https://www.cronista.com/__export/1609255147683/sites/diarioelcronista/img/2020/12/29/soldatich.jpg_258117318.jpg"
+		},
+		
+		{
+		 titulo:"El canal de acceso al puerto de Buenos Aires ya quedó obsoleto y hay que reformularlo",
+		 texto:"Roberto Negro, el CEO del grupo ITL, que opera la terminal Exolgan, en Dock Sud, afirmó que es imprescindible adecuarlo a las grandes dimensiones de los nuevos buques. También afirmó que Tecplata es una “linda terminal mal ubicada”.",
+		 fecha:"6 de enero 2021", 
+		 fnum:210106,
+		 href:"http://www.argenports.com.ar/nota/el-canal-de-acceso-al-puerto-de-buenos-aires-ya-quedo-obsoleto/",
+		 img:"http://www.argenports.com.ar/public/img/notas/413/el-canal-de-acceso-al-puerto-de-buenos-aires-ya-quedo-obsoleto-aga-bahia-blanca-desktop.jpg"
+		},
+		
 
 	];
 
@@ -635,6 +680,15 @@ notas.controller("controlador", function($scope){
 		 fnum:210104,
 		 href:"https://www.mercojuris.com/36816/tras-el-paro-decenas-de-barcos-ingresaron-a-los-puertos-de-rosario-y-bahia-blanca/",
 		 img:"http://www.mercojuris.com/wp-content/uploads/2021/01/Bacos.jpg"
+		},
+		
+		{
+		 titulo:"Se publicó el llamado a licitación para el dragado del puerto de Mar del Plata",
+		 texto:"La obra alcanzará al canal principal y espacios interiores de la terminal local. Se deben remover 560.000 m3 de sedimentos. Las ofertas se conocerán el próximo 19 de febrero.",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"http://www.argenports.com.ar/nota/se-publico-el-llamado-a-licitacion-para-el-dragado-del-puerto-de-mar-del-plata/",
+		 img:"http://www.argenports.com.ar/public/img/notas/420/se-publico-el-llamado-a-licitacion-para-el-dragado-del-puerto-de-mar-del-plata-aga-bahia-blanca-desktop.jpg"
 		},
 		
 
@@ -811,6 +865,15 @@ notas.controller("controlador", function($scope){
 		 fnum:190315,
 		 href:"https://eleconomista.com.ar/2019-03-las-cadenas-de-valor-global-y-las-posibilidades-de-argentina/",
 		 img:"https://eleconomista.com.ar/wp-content/uploads/2018/07/Mapa-Argentina.png"
+		},
+		
+		{
+		 titulo:"Falkland Islands admits disappointment and frustration with Brexit deal",
+		 texto:"Falkland Islands European Union exports are now subject to tariffs due to the UK not obtaining an agreement on behalf of the Falklands in relation to Brexit. On Wednesday, Legislative Assembly members released an opinion piece that expressed disappointment and frustration.",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"https://en.mercopress.com/2021/01/08/falkland-islands-admits-disappointment-and-frustration-with-brexit-deal",
+		 img:"https://en.mercopress.com/data/cache/noticias/79687/0x0/scout-mare-harbour.jpg"
 		},		
 
 	];
@@ -918,6 +981,15 @@ notas.controller("controlador", function($scope){
 		 href:"https://www.linkedin.com/posts/argenports_canal-magdalena-est%C3%A1-todo-listo-para-poder-activity-6750062015588397056-PfwT",
 		 img:"http://www.argenports.com.ar/public/img/notas/401/la-obra-del-canal-magdalena-esta-en-condiciones-de-ser-licitada-en-cuatro-meses-aga-bahia-blanca-desktop.jpg"
 		},
+		
+		{
+		 titulo:"El Canal Magdalena",
+		 texto:"Canal Magdalena en el Río de la Plata, un proyecto de gran envergadura, que ha obtenido tanto respaldo como reparos. Para que sume su aporte, le solicitamos a Jorge Metz, ex Secretario General del Comité Intergubernamental Coordinador de la Cuenca del Plata (CIC Plata) (Argentina, Bolivia, Brasil, Paraguay y Uruguay), ex Subsecretario de Puertos y Vías Navegables de Nación y ex Presidente del Consorcio del Puerto de la Plata, nos realice un análisis sobre este tema.",
+		 fecha:"8 de enero 2021", 
+		 fnum:210108,
+		 href:"https://confluenciaportuaria.com/destacada/el-canal-magdalena/",
+		 img:"https://confluenciaportuaria.com/wp-content/uploads/2021/01/3355e06c-982b-40b0-ab1e-f529930683a0.jpg"
+		},
 	];
 
 	lista.comex = [
@@ -983,6 +1055,15 @@ notas.controller("controlador", function($scope){
 		 fnum:210108,
 		 href:"http://www.argenports.com.ar/nota/el-petroleo-de-vaca-muerta-permitio-a-puerto-rosales-cerrar-un-buen-2020/",
 		 img:"http://www.argenports.com.ar/public/img/notas/419/el-petroleo-de-vaca-muerta-permitio-a-puerto-rosales-cerrar-un-buen-2020-aga-bahia-blanca-desktop.jpg"
+		},
+		
+		{
+		 titulo:"Comercio exterior, macroeconomía y la restricción externa",
+		 texto:"Las exportaciones se desplomaron un 42,27% en noviembre y abren el camino al colapso económico",
+		 fecha:"29 de diciembre 2020", 
+		 fnum:201229,
+		 href:"https://www.cronista.com/transportycargo/Comercio-exterior-macroeconomia-y-la-restriccion-externa-20201229-0029.html",
+		 img:"https://www.cronista.com/__export/1609255147683/sites/diarioelcronista/img/2020/12/29/soldatich.jpg_258117318.jpg"
 		},
 	];
 
