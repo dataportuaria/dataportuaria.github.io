@@ -117,7 +117,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"2 de enero 2021", 
 		 fnum:210102,
 		 href:"https://www.cronista.com/transportycargo/Puertos-paralizados-se-agrava-el-paro-de-remolcadores-20210102-0007.html",
-		 img:"https://www.cronista.com/__export/1609603099270/sites/diarioelcronista/img/2021/01/02/servicios_remolque1_1.jpg_673822677.jpg"
+		 img:"https://www.cronista.com/files/image/317/317033/5ffe5104ec047.jpg"
 		},
 		
 		{
@@ -207,7 +207,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"4 de diciembre 2020", 
 		 fnum:201204,
 		 href:"https://www.cronista.com/transportycargo/Balance-continental-del-sector-portuario-20201204-0026.html",
-		 img:"https://www.cronista.com/__export/1607095972821/sites/diarioelcronista/img/2020/12/04/entrada_02.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315648/5ffe48e159fe6.jpg"
 		},
 		
 		{
@@ -216,7 +216,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"4 de diciembre 2020", 
 		 fnum:201204,
 		 href:"https://www.cronista.com/transportycargo/Productivo-debate-en-favor-de-la-hidrovia-20201204-0057.html",
-		 img:"https://www.cronista.com/__export/1607127365773/sites/diarioelcronista/img/2020/12/04/hidro.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315655/5ffe48e74a8b5.jpg"
 		},
 		
 		{
@@ -279,7 +279,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"11 de diciembre 2020", 
 		 fnum:201211,
 		 href:"https://www.cronista.com/transportycargo/Respaldo-publico-y-privado-a-la-linea-de-buques-de-bandera-20201211-0023.html",
-		 img:"https://www.cronista.com/__export/1607705260968/sites/diarioelcronista/img/2020/12/11/foto_nota_tapa.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315970/5ffe4ab872de7.jpg"
 		},
 		
 		{
@@ -306,7 +306,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"10 de diciembre 2020", 
 		 fnum:201210,
 		 href:"https://www.cronista.com/transportycargo/Proponen-una-hidrovia-verde-sustentable-e-inteligente-20201210-0028.html",
-		 img:"https://www.cronista.com/img/2020/12/10/hidro.jpeg?__scale=w:829,h:466,c:d0d0d0,q:80"
+		 img:"https://www.cronista.com/files/image/316/316013/5ffe4b0be8ae1.jpg"
 		},
 		
 		{
@@ -378,7 +378,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"22 de diciembre 2020", 
 		 fnum:201222,
 		 href:"https://www.cronista.com/transportycargo/Tormenta-perfecta-para-los-flujos-globales-de-contenedores-20201222-0035.html",
-		 img:"https://www.cronista.com/__export/1608664918297/sites/diarioelcronista/img/2020/12/22/dominguez.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315775/5ffe49b6b850a.jpg"
 		},
 		
 		{
@@ -414,7 +414,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"5 de enero 2021", 
 		 fnum:210105,
 		 href:"https://www.cronista.com/transportycargo/El-Foro-Logistico-de-Buenos-Aires-sento-su-postura-20210105-0056.html",
-		 img:"https://www.cronista.com/__export/1609889785840/sites/diarioelcronista/img/2021/01/05/foro.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/316/316952/5ffe509c29325.jpg"
 		},
 		
 		{
@@ -459,7 +459,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"6 de enero 2021", 
 		 fnum:210106,
 		 href:"https://www.cronista.com/internacionales/China-quiere-seguridad-alimentaria-y-hara-el-banco-de-semillas-mas-grande-del-mundo-20210106-0019.html",
-		 img:"https://www.cronista.com/__export/1609955057215/sites/diarioelcronista/img/2021/01/06/semillas_china_maiz_xinhua_2_crop1609955056711.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/316/316754/5ffe4f42652c3.jpg"
 		},
 		
 		{
@@ -522,7 +522,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"7 de enero 2021", 
 		 fnum:210107,
 		 href:"https://www.cronista.com/transportycargo/Paro-portuario-hay-acuerdo-y-vuelven-a-operar-los-remolcadores-20210107-0030.html",
-		 img:"https://www.cronista.com/__export/1610037735470/sites/diarioelcronista/img/2021/01/07/paro_remoloques_crop1610037734809.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/316/316711/5ffe4f0053e6f.jpg"
 		},
 		
 		{
@@ -540,7 +540,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"30 de diciembre 2020", 
 		 fnum:201230,
 		 href:"https://www.bcr.com.ar/es/mercados/investigacion-y-desarrollo/informativo-semanal/noticias-informativo-semanal/el-trigo-24",
-		 img:"https://www.bcr.com.ar/sites/default/files/styles/free/public/balance_trigo_1_0.png?itok=toMGFRMi"
+		 img:"https://www.bcr.com.ar/sites/default/files/styles/free/public/balance_trigo_1_0.png"
 		},
 		
 		{
@@ -594,7 +594,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"29 de diciembre 2020", 
 		 fnum:201229,
 		 href:"https://www.cronista.com/transportycargo/Comercio-exterior-macroeconomia-y-la-restriccion-externa-20201229-0029.html",
-		 img:"https://www.cronista.com/__export/1609255147683/sites/diarioelcronista/img/2020/12/29/soldatich.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/317/317033/5ffe5104ec047.jpg"
 		},
 		
 		{
@@ -604,6 +604,15 @@ notas.controller("controlador", function($scope){
 		 fnum:210106,
 		 href:"http://www.argenports.com.ar/nota/el-canal-de-acceso-al-puerto-de-buenos-aires-ya-quedo-obsoleto/",
 		 img:"http://www.argenports.com.ar/public/img/notas/413/el-canal-de-acceso-al-puerto-de-buenos-aires-ya-quedo-obsoleto-aga-bahia-blanca-desktop.jpg"
+		},
+		
+		{
+		 titulo:"El proyecto logístico que busca favorecer el comercio entre Argentina, Uruguay y Brasil",
+		 texto:"La empresaria uruguaya Virginia Staricco se reunió con autoridades argentinas y uruguayas para impulsar la habilitación de matriculas Mercosur para el transporte en buque de semirremolques de carga. Cuáles son las ventajas para las empresas y los trabajadores en medio de la pandemia de covid-19",
+		 fecha:"6 de enero 2021", 
+		 fnum:210106,
+		 href:"https://paraguayfluvial.com/el-proyecto-logistico-que-busca-favorecer-el-comercio-entre-argentina-uruguay-y-brasil/",
+		 img:"https://paraguayfluvial.com/wp-content/uploads/2021/01/produccion-instalacion-logistica-696x464-1.jpg"
 		},
 		
 
@@ -729,7 +738,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"4 de diciembre 2020", 
 		 fnum:201204,
 		 href:"https://www.cronista.com/transportycargo/Balance-continental-del-sector-portuario-20201204-0026.html",
-		 img:"https://www.cronista.com/__export/1607095972821/sites/diarioelcronista/img/2020/12/04/entrada_02.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315648/5ffe48e159fe6.jpg"
 		},
 		
 		{
@@ -738,7 +747,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"4 de diciembre 2020", 
 		 fnum:201204,
 		 href:"https://www.cronista.com/transportycargo/Productivo-debate-en-favor-de-la-hidrovia-20201204-0057.html",
-		 img:"https://www.cronista.com/__export/1607127365773/sites/diarioelcronista/img/2020/12/04/hidro.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315655/5ffe48e74a8b5.jpg"
 		},
 		
 		{
@@ -792,7 +801,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"22 de diciembre 2020", 
 		 fnum:201222,
 		 href:"https://www.cronista.com/transportycargo/Tormenta-perfecta-para-los-flujos-globales-de-contenedores-20201222-0035.html",
-		 img:"https://www.cronista.com/__export/1608664918297/sites/diarioelcronista/img/2020/12/22/dominguez.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315775/5ffe49b6b850a.jpg"
 		},
 		
 		{
@@ -828,7 +837,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"6 de enero 2021", 
 		 fnum:210106,
 		 href:"https://www.cronista.com/internacionales/China-quiere-seguridad-alimentaria-y-hara-el-banco-de-semillas-mas-grande-del-mundo-20210106-0019.html",
-		 img:"https://www.cronista.com/__export/1609955057215/sites/diarioelcronista/img/2021/01/06/semillas_china_maiz_xinhua_2_crop1609955056711.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/316/316754/5ffe4f42652c3.jpg"
 		},
 		
 		{
@@ -1018,7 +1027,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"22 de diciembre 2020", 
 		 fnum:201222,
 		 href:"https://www.cronista.com/transportycargo/Tormenta-perfecta-para-los-flujos-globales-de-contenedores-20201222-0035.html",
-		 img:"https://www.cronista.com/__export/1608664918297/sites/diarioelcronista/img/2020/12/22/dominguez.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315775/5ffe49b6b850a.jpg"
 		},
 
 		{
@@ -1063,7 +1072,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"29 de diciembre 2020", 
 		 fnum:201229,
 		 href:"https://www.cronista.com/transportycargo/Comercio-exterior-macroeconomia-y-la-restriccion-externa-20201229-0029.html",
-		 img:"https://www.cronista.com/__export/1609255147683/sites/diarioelcronista/img/2020/12/29/soldatich.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/317/317033/5ffe5104ec047.jpg"
 		},
 	];
 
@@ -1127,7 +1136,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"10 de diciembre 2020", 
 		 fnum:201210,
 		 href:"https://www.cronista.com/transportycargo/Proponen-una-hidrovia-verde-sustentable-e-inteligente-20201210-0028.html",
-		 img:"https://www.cronista.com/img/2020/12/10/hidro.jpeg?__scale=w:829,h:466,c:d0d0d0,q:80"
+		 img:"https://www.cronista.com/files/image/316/316013/5ffe4b0be8ae1.jpg"
 		},
 		
 		{
@@ -1163,7 +1172,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"22 de diciembre 2020", 
 		 fnum:201222,
 		 href:"https://www.cronista.com/transportycargo/Tormenta-perfecta-para-los-flujos-globales-de-contenedores-20201222-0035.html",
-		 img:"https://www.cronista.com/__export/1608664918297/sites/diarioelcronista/img/2020/12/22/dominguez.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/315/315775/5ffe49b6b850a.jpg"
 		},
 
 		{
@@ -1181,7 +1190,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"6 de enero 2021", 
 		 fnum:210106,
 		 href:"https://www.cronista.com/internacionales/China-quiere-seguridad-alimentaria-y-hara-el-banco-de-semillas-mas-grande-del-mundo-20210106-0019.html",
-		 img:"https://www.cronista.com/__export/1609955057215/sites/diarioelcronista/img/2021/01/06/semillas_china_maiz_xinhua_2_crop1609955056711.jpg_258117318.jpg"
+		 img:"https://www.cronista.com/files/image/316/316754/5ffe4f42652c3.jpg"
 		},
 		
 		{
@@ -1238,7 +1247,7 @@ notas.controller("controlador", function($scope){
 		 fecha:"2 de enero 2021", 
 		 fnum:210102,
 		 href:"https://www.cronista.com/transportycargo/Puertos-paralizados-se-agrava-el-paro-de-remolcadores-20210102-0007.html",
-		 img:"https://www.cronista.com/__export/1609603099270/sites/diarioelcronista/img/2021/01/02/servicios_remolque1_1.jpg_673822677.jpg"
+		 img:"https://www.cronista.com/files/image/317/317033/5ffe5104ec047.jpg"
 		},
 		
 		{
